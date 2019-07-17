@@ -205,6 +205,87 @@ class Location3ViewController: UIViewController {
         marker31.title = "Golden Harvest Food Bank"
         marker31.snippet = "311 Alliance Pkwy, Williamston, SC 29697"
         marker31.map = mapView
+        
+        /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        let marker57 = GMSMarker()
+        marker57.position = CLLocationCoordinate2D(latitude: 40.95361, longitude: -73.73977)
+        marker57.title = "Mamaroneck Child Development Center"
+        marker57.snippet = "134 Center Ave, Mamaroneck, NY 10543"
+        marker57.map = mapView
+        
+        let marker58 = GMSMarker()
+        marker58.position = CLLocationCoordinate2D(latitude: 41.26306, longitude: -75.89839)
+        marker58.title = "West Side Food Bank"
+        marker58.snippet = "Market & S Kingston, Kingston, PA 18704, Kingston, PA 18704"
+        marker58.map = mapView
+        
+        let marker59 = GMSMarker()
+        marker59.position = CLLocationCoordinate2D(latitude: 40.70502, longitude: -74.0857)
+        marker59.title = "Friends of the Lifer's Youth"
+        marker59.snippet = "152 Martin Luther King Dr, Jersey City, NJ 07305"
+        marker59.map = mapView
+        
+        let marker60 = GMSMarker()
+        marker60.position = CLLocationCoordinate2D(latitude: 41.32162, longitude: -73.85438)
+        marker60.title = "Community Food Pantry At St.Mary's Mohegan Lake"
+        marker60.snippet = "1836 E Main St, Mohegan Lake, NY 10547"
+        marker60.map = mapView
+        
+        let marker61 = GMSMarker()
+        marker61.position = CLLocationCoordinate2D(latitude: 40.73616, longitude: -74.06972)
+        marker61.title = "Let's Share a Meal"
+        marker61.snippet = "1080 West Side Ave #6307, Jersey City, NJ 07306"
+        marker61.map = mapView
+        
+        let marker62 = GMSMarker()
+        marker62.position = CLLocationCoordinate2D(latitude: 40.74031, longitude: -74.03116)
+        marker62.title = "The Hoboken Shelter"
+        marker62.snippet = "300 Bloomfield St, Hoboken, NJ 07030"
+        marker62.map = mapView
+        
+        let marker63 = GMSMarker()
+        marker63.position = CLLocationCoordinate2D(latitude: 40.93363, longitude: -73.89859)
+        marker63.title = "The Sharing Community, Inc."
+        marker63.snippet = "1 Hudson St, Yonkers, NY 10701"
+        marker63.map = mapView
+        
+        let marker64 = GMSMarker()
+        marker64.position = CLLocationCoordinate2D(latitude: 40.74462, longitude: -73.98766)
+        marker64.title = "1 Hudson St, Yonkers, NY 10701"
+        marker64.snippet = "244 5th Ave, New York, NY 10001"
+        marker64.map = mapView
+        
+        let marker65 = GMSMarker()
+        marker65.position = CLLocationCoordinate2D(latitude: 40.9392, longitude: -73.88992)
+        marker65.title = "Community Hear"
+        marker65.snippet = "164 Ashburton Ave, Yonkers, NY 10701"
+        marker65.map = mapView
+        
+        let marker66 = GMSMarker()
+        marker66.position = CLLocationCoordinate2D(latitude: 40.63567, longitude: -74.13143)
+        marker66.title = "Project Hospitality"
+        marker66.snippet = "100 Park Ave, Staten Island, NY 10302"
+        marker66.map = mapView
+        
+        let marker67 = GMSMarker()
+        marker67.position = CLLocationCoordinate2D(latitude: 40.63954, longitude: -74.07622)
+        marker67.title = "Project Hospitality"
+        marker67.snippet = "14 Slosson Terrace, Staten Island, NY 10301"
+        marker67.map = mapView
+        
+        let marker68 = GMSMarker()
+        marker68.position = CLLocationCoordinate2D(latitude: 40.63891, longitude: -74.08718)
+        marker68.title = "Project Hospitality"
+        marker68.snippet = "385 Jersey St, Staten Island, NY 10301"
+        marker68.map = mapView
+        
+        let marker69 = GMSMarker()
+        marker69.position = CLLocationCoordinate2D(latitude: 40.72197, longitude: -73.99284)
+        marker69.title = "The Bowery Mission"
+        marker69.snippet = "227 Bowery, New York, NY 10002"
+        marker69.map = mapView
+        
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
